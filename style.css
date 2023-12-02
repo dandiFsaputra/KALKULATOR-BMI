@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* @font-face {
+    font-family: Maison;
+    src: url(assets/font/MaisonNeue-Black.otf);
+    src: url(assets/font/MaisonNeue-Bold.otf);
+    src: url(assets/font/MaisonNeue-Book.otf);
+    src: url(assets/font/MaisonNeue-Demi.otf);
+    src: url(assets/font/MaisonNeue-ExtraBold.otf);
+    src: url(assets/font/MaisonNeue-Light.otf);
+    src: url(assets/font/MaisonNeue-Medium.otf);
+    src: url(assets/font/MaisonNeue-Thin.otf);
+} */
+
+:root {
+    /* warna */
+    --hijau: #2BA84A;
+    --abu-kecil: #586F7C;
+    --biru: #0090C1;
+    --hitam: #040F0F;
+
+    /* font */
+    --fontRoboto: 'Roboto', sans-serif;
+}
+.illustration {
+    margin-top: 112px;
+}
+
+.titleItem {
+    margin-top: 56px;
+}
+
+.titleItem .titleBody {
+    padding-top: 6px;
+}
+
+.titleHeading {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37.18px;
+}
+
+.titleBody {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+input {
+    height: 48px;
+}
+
+form {
+    margin-top: 32px;
+}
+
+.tombol,
+.buttonPrimary {
+    font-weight: 700;
+    font-size: 12px;
+    padding: 14px 114px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    margin-top: 12px;
+}
+
+.tombol:hover {
+    background-color: #26813d;
+}
+
+.buttonPrimary:active {
+    background-color: #26813d;
+}
+
+.form-label {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.form-control:focus {
+    border-color: var(--hijau);
+    box-shadow: none;
+    color: var(--hijau);
+}
+
+.greeting {
+    margin-top: 56px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.87px;
+    color: blue;
+}
+
+#hari,
+#namaUser {
+    font-weight: 400;
+    color: var(--hitam);
+    font-size: 24px;
+}
+
+.greeting .titleParagraf {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: var(--abu-kecil);
+    margin-top: 12px;
+}
+
+.titleParagraf span {
+    font-weight: 500;
+    color: var(--hijau);
+}
+
+.cardhasil {
+    margin: 56px auto;
+    padding: 20px 26px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+}
+
+.cardhasil .headingHasil {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--hitam);
+}
+
+.cardhasil #angkaBmi {
+    font-weight: 500;
+    font-size: 64px;
+    color: var(--biru);
+    letter-spacing: -3px;
+    padding-top: 8px;
+}
+
+.cardhasil #ketIdeal {
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--biru);
+    margin-top: -3px;
+}
+
+.cardhasil .range {
+    padding-top: 44px;
+}
+
+.cardhasil .titleInfo {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(46, 143, 170);
+    background-color: rgb(227, 249, 255);
+    padding: 6px 5px;
+    width: 100%;
+    line-height: 20px;
+    border-radius: 6px;
+    margin-top: 14px;
+}
+
+.cardhasil .keterangan #titleKet {
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--hitam);
+}
+
+.colorStatus {
+    margin-top: 44px;
+    align-items: center;
+}
+
+.colorStatus .titleStatus {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--abu-kecil);
+}
+
+.gambarStatus {
+    margin-bottom: 20px;
+}
+
+.formInput {
+    align-items: center;
+    margin: 0 auto;
+}
+
+.accordion-button {
+    font-size: 14px;
+    color: var(--hitam);
+}
+
+.accordion-body {
+    font-size: 14px;
+}
+
+footer {
+    margin-top: 56px;
+    margin-bottom: 16px;
+}
+
+.titleFooter {
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--abu-kecil);
+}
